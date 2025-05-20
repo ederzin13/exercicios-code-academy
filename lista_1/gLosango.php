@@ -7,12 +7,8 @@
     echo "Diagonal menor: " . PHP_EOL;
     $dMenor = readline();
 
-    function area() {
-        global $dMaior, $dMenor;
+    $area = ($dMaior * $dMenor) / 2;
 
-        $resultado = ($dMaior * $dMenor) / 2;
-        return $resultado;
-    }  
 
-    echo "Área do losango: " . area() . "cm²" . PHP_EOL;
+    echo "Área do losango: " . $area . "cm²" . PHP_EOL;
 ?>

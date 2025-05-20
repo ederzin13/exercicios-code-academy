@@ -7,21 +7,10 @@
     $valor = readline();
     $percentualReajuste = 1 / 100;
 
-    function valorAumento() {
-        global $percentualReajuste, $valor;
+    $aumento = $valor * $percentualReajuste;
 
-        $aumento = $valor * $percentualReajuste;
 
-        return $aumento;
-    }
-
-    function reajuste() {
-        global $valor;
-
-        $novoValor = valorAumento() + $valor;
-
-        return $novoValor;
-    }
-
-    echo "Valor com aumento de 1%: " . reajuste() . PHP_EOL;
+    $novoValor = $aumento + $valor;
+    
+    echo "Valor com aumento de 1%: " . $novoValor . PHP_EOL;
 ?>

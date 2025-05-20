@@ -5,12 +5,9 @@
     echo "Dê a altura do mesmo: " . PHP_EOL;
     $altura = readline();
 
-    function area() {
-        global $base, $altura;
 
-        $resultado = ($base * $altura) / 2;
-        return $resultado;
-    }
+    $area = ($base * $altura / 2);
+    
 
-    echo "RESULTADO: " . area() . "cm²" . PHP_EOL;
+    echo "RESULTADO: " . $area . "cm²" . PHP_EOL;
 ?>
