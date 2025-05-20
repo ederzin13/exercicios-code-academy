@@ -13,21 +13,11 @@
     echo "Valor 4" . PHP_EOL;
     $val4 = readline();
 
-    function mediaPonderadaSoma($val1, $val2, $val3, $val4) {
-        $soma = $val1 + $val2 * 2 + $val3 * 3 + $val4 * 4;
 
-        return $soma;
-    }
+    $soma = $val1 + $val2 * 2 + $val3 * 3 + $val4 * 4;
 
-    $resultadoSoma = mediaPonderadaSoma($val1, $val2, $val3, $val4);
+    $mediaPonderada = $soma / (1 + 2 + 3 + 4);
 
-    function mediaPonderada() {
-        global $resultadoSoma;
 
-        $resultadoMedia = $resultadoSoma / (1 + 2 + 3 + 4);
-        
-        return $resultadoMedia;
-    }
-
-    echo mediaPonderada(). PHP_EOL;
+    echo "Média ponderada: " . $mediaPonderada . PHP_EOL;
 ?>
