@@ -1,8 +1,4 @@
 <?php
-    //resultado da soma
-    //resultado da média
-    //apenas dos valores entre 50 e 70
-
     $somatoria = 0;
     $qtd = 0;
     

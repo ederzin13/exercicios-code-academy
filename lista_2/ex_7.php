@@ -2,7 +2,6 @@
     echo "Qual a idade do nadador?" . PHP_EOL;
     $age = readline();
 
-    //switch case?
     switch ($age) {
         case ($age >= 5 && $age <= 7):
             echo "Infantil A" . PHP_EOL;

@@ -84,9 +84,6 @@
     $sexo = readline();
 
     function pesoIdeal($altura, $sexo) {
-        //$Altura = $altura;
-        //$Sexo = $sexo;
-
         if ($sexo == "f") $pesoIdeal = 62.1 * $altura - 44.7;
         if ($sexo == "m") $pesoIdeal = 72.7 * $altura - 58;
 

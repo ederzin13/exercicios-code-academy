@@ -1,6 +1,4 @@
 <?php
-    //atrocidade
-
     $vetor = [];
 
     for ($i = 0; $i < 10; $i++) {
@@ -19,7 +17,6 @@
         //contagem pares e ímpares
         if ($vetor[$i] % 2 == 0) $pares++;
         if ($vetor[$i] % 2 != 0) $impares++;
-        //$pares = ($vetor[$i] % 2 != 0) ? $impares++ : $pares++;
     }
 
     echo "Número de negativos: " . $numNegativos . PHP_EOL;
